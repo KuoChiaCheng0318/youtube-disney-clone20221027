@@ -1,4 +1,4 @@
-#Firebase URL: https://disneyplus-clone-1ced6.web.app/
+Link to the Firebase deployed webpage: https://disneyplus-clone-1ced6.web.app/
 
 
 # Getting Started with Create React App

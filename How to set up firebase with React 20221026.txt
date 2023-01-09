@@ -1,0 +1,34 @@
+1) Create React app
+	npx create-react-app amazon-clone
+2) npm run build
+	create build folder
+3) create a firebase project on firebase website, with a web app
+4) on the local react app directory (amazon-clone): 
+	a. npm install firebase
+	b. npm install -g firebase -tools
+5) firebase login
+6) firebase init (cmd in amazon-clone path)
+	a. Are you ready to proceed? yes
+	b. Which firebase CLI features do you want? Hosting Configure and deploy Firebase Hosting sites
+	c. Please select an option: use existing project (if fails, use "firebase logout" cmd, then "firebase login" again)
+	d. Choose public directory? type: build
+	e. single page app? type: no
+	f. Github? recommend no, just create github repository by yourself
+	g. overwrite index.html?  No!!! important!!!
+12) type "firebase deploy" command
+
+next time update:
+	1) cmd: npm run build
+	2) cmd: firebase deploy
+
+firebase url look like this: https://clone-97988.web.app, https://fir-fc433.web.app/
+
+Just to run React app: npm start
+
+For amazon-clone, remember to install:
+	npm install react-router-dom@5.2.0
+	npm install @material-ui/core
+	npm install @material-ui/icons
+
+	npm ci or npm install or npm i -> install all required packages.
+	

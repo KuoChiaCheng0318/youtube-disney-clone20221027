@@ -3,12 +3,24 @@ import {useDispatch, useSelector} from "react-redux";
 import {useHistory} from 'react-router-dom';
 import {auth, provider} from "../firebase";
 import {selectUserName, selectUserPhoto, setUserLoginDetails} from "../features/user/userSlice";
+import { useEffect } from "react";
 
 const Header = (props) =>{
     const dispatch = useDispatch()
     const history = useHistory()
     const userName = useSelector(selectUserName)
     const userPhoto = useSelector(selectUserPhoto)
+
+    useEffect(() => {
+        auth.onAuthStateChanged(async (user) => {
+            if(user) {
+                setUser(user)
+                history.push('/home')
+            }
+        })
+    },[userName]);
+    // useEffect is a function, it only runs if [userName] updated
+    // detect whether logged in or not, if user exist, bring to "/home"
 
     const handleAuth =() => {
         auth.signInWithPopup(provider).then((result) => {

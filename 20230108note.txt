@@ -6,3 +6,7 @@ import firebase from 'firebase/compat/app';
 import 'firebase/compat/auth';
 import 'firebase/compat/firestore';
 import 'firebase/compat/storage';
+
+need to install: 
+npm install react-redux
+npm install @reduxjs/toolkit

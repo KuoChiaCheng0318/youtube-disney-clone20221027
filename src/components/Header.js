@@ -182,8 +182,7 @@ const Login =styled.a`
         color: #000;
         border-color: transparent;
     }
-
-`
+`;
 
 const UserImg = styled.img`
   height: 100%;

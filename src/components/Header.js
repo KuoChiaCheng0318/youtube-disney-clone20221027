@@ -61,7 +61,8 @@ const Header = (props) =>{
             ) : (
                 <>
                     <NavMenu>
-                        <a href='/home'>
+                        {/* <a href='/home'> */}
+                        <a>
                             <img src="/images/home-icon.svg" alt="HOME" />
                             <span>HOME</span>
                         </a>
@@ -125,6 +126,7 @@ const Logo=styled.a`
         display: block;
         width:100%;
     }
+    cursor: pointer;
 `;
 
 const NavMenu = styled.div`
@@ -180,6 +182,7 @@ const NavMenu = styled.div`
 
         
         &:hover{
+            cursor: pointer;
             span:before{
                 transform: scaleX(1);
                 visibility: visible;

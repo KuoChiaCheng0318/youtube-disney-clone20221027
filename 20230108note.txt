@@ -2,6 +2,9 @@ for firebase login
 
 need to make "import firebase from 'firebase';" in firebase.js file into:
 
+20230109
+I made <a href='/home'> in Header.js at line 64 into just <a>, add cursor: pointer; at line 184 when cursor hovering
+
 import firebase from 'firebase/compat/app';
 import 'firebase/compat/auth';
 import 'firebase/compat/firestore';

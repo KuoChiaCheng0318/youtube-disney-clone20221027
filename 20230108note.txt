@@ -10,3 +10,5 @@ import 'firebase/compat/storage';
 need to install: 
 npm install react-redux
 npm install @reduxjs/toolkit
+npm install react-slick --save
+npm install slick-carousel

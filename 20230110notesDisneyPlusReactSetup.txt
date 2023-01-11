@@ -1,0 +1,23 @@
+need to install: 
+npm install styled-components
+npm install react-redux
+npm install @reduxjs/toolkit
+npm install react-slick --save
+npm install slick-carousel
+
+need to make "import firebase from 'firebase';" in firebase.js file into:
+import firebase from 'firebase/compat/app';
+import 'firebase/compat/auth';
+import 'firebase/compat/firestore';
+import 'firebase/compat/storage';
+
+
+need to add Google authentication on firebase:
+https://www.youtube.com/watch?v=R_OERlafbmw&list=PL-J2q3Ga50oMQa1JdSJxYoZELwOJAXExP
+video: 1: 26 : 00
+
+need to add movie details to firestore database
+https://www.youtube.com/watch?v=R_OERlafbmw&list=PL-J2q3Ga50oMQa1JdSJxYoZELwOJAXExP
+video: 3: 19 : 00
+
+need to edit the "src/firebase.js" file, see the configuration in "firebase/ project settings/ SDK setup and configuration "

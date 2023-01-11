@@ -15,13 +15,17 @@
 	e. single page app? type: no
 	f. Github? recommend no, just create github repository by yourself
 	g. overwrite index.html?  No!!! important!!!
-12) type "firebase deploy" command
+7) type "firebase deploy" command
 
 next time update:
 	1) cmd: npm run build
 	2) cmd: firebase deploy
 
 firebase url look like this: https://clone-97988.web.app, https://fir-fc433.web.app/
+
+To set up github page, use add local repository. Don't use new repository.
+
+need to edit the "src/firebase.js" file, see the configuration in "firebase/ project settings/ SDK setup and configuration "
 
 Just to run React app: npm start
 

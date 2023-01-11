@@ -1,6 +1,6 @@
 Link to the Firebase deployed webpage: https://disneyplus-clone-1ced6.web.app/
 
-You can view homepage after logging in with Google account<br>
+Please log in with Google account to view homepage<br>
 <img src="Login.PNG"><br>
 <img src="homePage.PNG">
 
